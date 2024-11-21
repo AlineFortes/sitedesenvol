@@ -1,0 +1,53 @@
+body {
+    color: black;
+    background-color: dodgerblue ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+article img {
+    width: 40px;
+    height: 40px;
+}
+
+article {
+    display: flex;
+    justify-content: left;
+}
+
+article a {
+    margin: 20px;
+    text-align: center;
+}
+
+article p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 5px 150px;
+}
+
+nav a:hover {
+    color: white;
+}
